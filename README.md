@@ -4,6 +4,10 @@ Automation for the BEON QA Automation Exercise:
 - **API**: Restful-Booker booking lifecycle (auth -> create -> read -> update -> delete, chained).
 - **UI**: SauceDemo checkout flow (login -> add two distinct items -> cart -> checkout -> confirmation).
 
+> Note: this repo intentionally does not include any AI/agent tooling
+> (agent prompts, MCP config, AI workflow docs, etc.). Those are my own
+> personal tools and were removed on purpose before sharing this project.
+
 ## Prerequisites
 - Node.js 18+
 - npm
