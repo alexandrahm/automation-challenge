@@ -10,7 +10,7 @@ Stack: Playwright + TypeScript. API tests in tests/api (*.api.spec.ts), UI tests
 - Every test is independent and creates its own data with a unique name.
 - Base URLs come from API_URL / UI_URL env vars, never hardcoded in tests.
 
-## AI workflow (see ai/README.md)
+## AI workflow
 1. Scan first (`npm run scan -- <url>` or Playwright MCP snapshot). Never invent selectors.
 2. Propose test cases before writing code and wait for approval.
 3. Generate code following the conventions above, run it, fix failures from real output.
