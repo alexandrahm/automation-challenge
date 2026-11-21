@@ -33,7 +33,7 @@ fixtures/TestFixture.ts   custom Playwright `test`/`expect` that injects every
                           Page Object and the API client as fixtures, so a test
                           asks for what it needs instead of constructing it.
 pages/                    Page Object Model: locators + actions only.
-                          Assertions about intent stay in the tests (CLAUDE.md).
+                          Assertions about intent stay in the tests.
                           LoginPage, InventoryPage, CartPage, CheckoutInfoPage,
                           CheckoutOverviewPage, CheckoutCompletePage.
 api/BookingApiClient.ts   Action class for Restful-Booker: one method per
